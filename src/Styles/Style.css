@@ -1,0 +1,196 @@
+.App {
+  overflow: hidden;
+}
+
+#Sidebar {
+  width: 300px;
+  height: 100vh;
+  float: left;
+  position: relative;
+  padding: 0px 15px;
+}
+#Sidebar #flexible {
+  position: fixed;
+  height: 100vh;
+  width: calc(300px - 30px);
+}
+#Sidebar .imgCon {
+  margin: 30px 0px;
+  text-align: center;
+}
+#Sidebar .linkCon ul {
+  padding: 0px;
+  margin: 0px -15px;
+}
+#Sidebar .linkCon ul li {
+  color: #1a3f86;
+  list-style-type: none;
+  line-height: 13px;
+  font-size: 13px;
+  padding: 16.5px 15px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  text-transform: uppercase;
+  font-weight: 500;
+}
+#Sidebar .linkCon ul li:hover {
+  cursor: pointer;
+}
+#Sidebar .linkCon ul li:first-child {
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+#Sidebar .linkCon ul li svg {
+  float: right;
+}
+#Sidebar .footBar {
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+}
+#Sidebar .footBar p {
+  text-align: center;
+  font-size: 10px;
+}
+
+#Body {
+  float: left;
+  width: calc(100% - 300px);
+}
+#Body .Slider {
+  height: 600px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  background-color: pink;
+}
+#Body .Slider .bodyContent {
+  position: absolute;
+  bottom: 150px;
+  left: 90px;
+  width: 38%;
+}
+#Body .Slider .bodyContent h2 {
+  font-size: 3vw;
+  font-weight: 350;
+}
+#Body .Slider .buttonCon {
+  position: absolute;
+  bottom: 20px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+#Body .Slider .buttonCon div {
+  margin: 0px 3px;
+  width: 15px;
+  height: 15px;
+  border-radius: 100%;
+  border: 1px solid white;
+  float: left;
+  box-shadow: 2px 2px 5px white;
+}
+#Body .Slider .buttonCon div:hover {
+  cursor: pointer;
+}
+#Body .Slider .buttonCon div.active {
+  background-color: white;
+}
+#Body .BrandText {
+  display: flex;
+  justify-content: center;
+  padding: 20px 0px;
+  font-weight: 700;
+  font-size: 15px;
+  text-transform: uppercase;
+}
+#Body .Brands {
+  text-align: center;
+}
+#Body .Brands img {
+  width: 100%;
+}
+#Body .Brands img:hover {
+  cursor: pointer;
+}
+#Body .Brands h4 {
+  font-size: medium;
+  font-weight: 700;
+}
+#Body .Brands h4 a {
+  text-decoration: none;
+  color: black;
+}
+#Body .Brands p {
+  font-size: 13px;
+  height: 57.27px;
+  overflow: hidden;
+  font-family: "Roboto", sans-serif;
+}
+#Body .About .AbCol {
+  border-right: 1px solid rgba(0, 0, 0, 0.4);
+}
+#Body .About .AbCol .Title .painted {
+  background-color: rgba(0, 0, 0, 0.1);
+  width: 100%;
+  padding: 20px 0;
+}
+#Body .About .AbCol .Title p {
+  font-size: small;
+  font-weight: 700;
+}
+#Body .About .AbCol .Title a {
+  font-size: small;
+  color: rgba(0, 0, 0, 0.7);
+  text-decoration: none;
+}
+#Body .About .AbCol .inf img {
+  width: 100%;
+}
+#Body .About .AbCol .inf a {
+  font-size: small;
+  font-weight: 600;
+  float: left;
+  padding-top: 10px;
+}
+#Body .About .AbCol .inf P {
+  font-size: small;
+  margin-top: 60px;
+}
+#Body .About .AbCol .inf ul {
+  padding: 10px 0px;
+}
+#Body .About .AbCol .inf ul li {
+  font-size: 14px;
+  font-weight: 600;
+  padding: 10px 10px;
+  list-style-type: none;
+  color: #1a3f86;
+}
+#Body .About .AbCol .inf ul li:hover {
+  cursor: pointer;
+}
+#Body .About .AbCol .inf2 {
+  padding-top: 20px;
+}
+
+.backParent .Header {
+  padding: 40px 40px;
+  display: flex;
+  flex-direction: column;
+}
+.backParent .Header p {
+  text-transform: uppercase;
+  font-weight: 800;
+  font-size: small;
+  color: #1A3F86;
+}
+.backParent .Header div {
+  height: 3px;
+  width: 60px;
+  background-color: green;
+}
+.backParent .team img {
+  width: 100%;
+}
+
+/*# sourceMappingURL=Style.css.map */

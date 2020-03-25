@@ -1,0 +1,220 @@
+.App{
+    overflow: hidden;
+}
+ 
+#Sidebar{
+    width: 300px;
+    height: 100vh;
+    float: left;
+    position: relative;
+    padding:0px 15px;
+    #flexible{
+        position: fixed;
+        height: 100vh;
+        width: calc(300px - 30px);
+    }
+    .imgCon{
+        margin:30px 0px;
+        text-align: center;
+    }
+    .linkCon{
+        ul{
+            padding:0px;
+            margin:0px -15px;
+            li{
+                color:  #1a3f86;
+                list-style-type: none;
+                line-height: 13px;
+                font-size: 13px;
+                padding: 16.5px 15px;
+                border-bottom:1px solid rgba(0,0,0,0.1);
+                text-transform: uppercase;
+                font-weight: 500;
+                &:hover {
+                    cursor: pointer;
+                }
+                &:first-child{
+                    border-top:1px solid rgba(0,0,0,0.1);
+                }
+                svg{
+                    float: right;
+                }
+            }
+        }
+    }
+    .footBar{
+        position: absolute;
+        bottom: 0px;
+        width: 100%;
+        p{
+            text-align: center;
+            font-size: 10px;
+        }
+    }
+}
+
+
+
+#Body{
+    float: left;
+    width: calc(100% - 300px);
+    .Slider {
+        height: 600px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        background-color: pink;
+        .bodyContent {
+            position: absolute;
+            bottom: 150px;
+            left: 90px;
+            width: 38%;
+            h2{
+                font-size: 3vw;
+                font-weight: 350;
+            }
+        }
+        .buttonCon{
+            position: absolute;
+            bottom: 20px;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            div{
+                margin:0px 3px;
+                width: 15px;
+                height: 15px;
+                border-radius: 100%;
+                border:1px solid white;
+                float: left;
+                box-shadow: 2px 2px 5px white;
+                &:hover{
+                    cursor: pointer;
+                }
+                &.active{
+                    background-color: white;
+                }
+            }
+        }
+    }
+
+    .BrandText {
+        display: flex;
+        justify-content: center;
+        padding: 20px 0px;
+        font-weight: 700; 
+        font-size: 15px;
+        text-transform: uppercase;
+    }
+    .Brands {
+        text-align: center;
+        img {
+            width: 100%;
+            &:hover {
+                cursor: pointer;
+            }
+        }
+        h4 {
+            font-size: medium;
+            font-weight: 700;
+            a {
+                text-decoration: none;
+                color: black;
+            }
+            
+        }
+        p {
+            font-size: 13px;
+            // font-size: 0.7vw;
+            height: 57.27px;
+            overflow: hidden;
+            font-family: 'Roboto', sans-serif;
+
+        }
+
+    }
+    .About {
+
+        .AbCol {
+
+            border-right:1px solid rgba(0,0,0,0.4);
+
+        .Title{
+            .painted{
+                background-color: rgba(0,0,0,0.1);
+                width: 100%;
+                padding: 20px 0;
+            }
+            p{
+                font-size: small;
+                font-weight: 700;
+            }
+            a{
+                font-size: small;
+                color: rgba(0,0,0,0.7);
+                text-decoration: none;
+            }
+
+        }
+        .inf{
+            img {
+                width: 100%;
+            }
+            a {
+                font-size: small;
+                font-weight: 600;
+                float: left;
+                padding-top: 10px;
+            }
+            P{
+                font-size: small;
+                margin-top: 60px;
+            }
+            ul {
+                padding: 10px 0px;
+                li{
+                    font-size: 14px;
+                    font-weight: 600;
+                    padding: 10px 10px;
+                    list-style-type: none;
+                    color: #1a3f86;
+
+                    &:hover{
+                        cursor: pointer;
+                    }
+                }
+            }
+        }
+        .inf2 {
+            padding-top: 20px;
+        }
+        }
+    }
+}
+
+.backParent {
+    .Header {
+        padding: 40px 40px;
+        display: flex;
+        flex-direction: column;
+        p{
+          text-transform: uppercase;
+          font-weight: 800;
+          font-size: small;
+          color: #1A3F86;
+        }
+        div {
+            
+            height: 3px;
+            width: 60px;
+            background-color: green;
+        }
+    }
+    .team {
+        img {
+            width: 100%;
+        }
+    }
+}
+
