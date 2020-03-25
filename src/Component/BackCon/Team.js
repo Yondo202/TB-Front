@@ -16,9 +16,6 @@ class Team extends Component {
                             <Col md={4}>
                                 <img src={require('../img/er1.jpg')} />
                             </Col>
-                            <Col md={8}>
-                                <img src={require('../img/er1.jpg')} />
-                            </Col>
                         </Row>
                     </Col>
                     <Col md={6}>
